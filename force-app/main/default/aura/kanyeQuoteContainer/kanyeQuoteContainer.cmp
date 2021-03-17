@@ -1,0 +1,7 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="KanyeRESTConsumption">
+    <aura:attribute name="quote" type="String"/>
+    
+    <aura:handler name="init" value="{! this }" action="{! c.doInit}"/>
+    
+    <c:kanyeQuote quote="{!v.quote}"/>
+</aura:component>

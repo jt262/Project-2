@@ -1,0 +1,4 @@
+<design:component label="Hello Kanye">
+    <design:attribute name="quote" label="Quote"/>
+    
+</design:component>

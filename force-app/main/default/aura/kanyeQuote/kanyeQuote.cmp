@@ -1,0 +1,11 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="quote" type="String"/>
+    
+    <div style="text-align:center">
+    <lightning:button variant="base" value="{!v.quote}" onclick="{! c.handleClick }">
+        
+            <p class="quote-card">"{!v.quote}" -Kanye West</p>
+        
+    </lightning:button>
+    </div>
+</aura:component>

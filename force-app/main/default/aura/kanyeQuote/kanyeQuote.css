@@ -1,0 +1,8 @@
+.THIS {
+}
+.THIS .quote-card{
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
