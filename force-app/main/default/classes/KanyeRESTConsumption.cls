@@ -16,7 +16,12 @@ public without sharing class KanyeRESTConsumption {
             
             quote = String.valueOf(respMap.get('quote'));
         }
+       
+        Inspiring_Kanye_Quote__c obj = new Inspiring_Kanye_Quote__c();
         
+        obj.Quote__c = quote;
+        
+        insert obj;
         
         System.debug(quote);
         return quote;
